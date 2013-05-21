@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Desmart\\BassetTwigExtension": "src/"
+            "DeSmart\\BassetTwigExtension": "src/"
         }
     },
     "minimum-stability": "dev"
