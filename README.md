@@ -1,6 +1,6 @@
 # About
 
-This package provides Basset functions for Laravel4 TwigBridge.
+This package provides [Basset](https://github.com/jasonlewis/basset) functions for Laravel4 [TwigBridge](https://github.com/rcrowe/TwigBridge).
 
 Currently are ported two functions:
 
@@ -9,7 +9,17 @@ Currently are ported two functions:
 
 # Installation
 
-Add `'DeSmart\BassetTwigExtension\Extension'` to `extensions` in `app/config/packages/rcrowe/twigbridge/config.php`
+Add package as composer dependancy:
+
+```
+{
+  "require": {
+    "desmart/basset-twig-extension": "1.0.*"
+  }
+}
+```
+
+In `app/config/packages/rcrowe/twigbridge/config.php` add `'DeSmart\BassetTwigExtension\Extension',` to `extensions`.
 
 # Usage
 
